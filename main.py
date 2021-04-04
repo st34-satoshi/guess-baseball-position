@@ -34,8 +34,9 @@ def solve():
             answers.append(members)
     print(f'number of answers is {len(answers)}')
     # for ans in answers:
-    #     # TODO: print members position
-    #     print(ans)
+    #     for p in Position:
+    #         print(f'{p.value} = {ans[p].value}', end=', ')
+    #     print()
 
 
 def valid_positions(members):
@@ -100,7 +101,7 @@ def valid_positions(members):
     for key, mems in taller_dict.items():
         for taller in mems:
             for taller_v in taller_dict[taller.value]:
-                if key == taller_v:
+                if key == taller_v.value:
                     return False
     # Check married
     for married in married_members:
