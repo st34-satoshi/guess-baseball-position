@@ -6,3 +6,6 @@ Detail is [here](https://heart-quake.com/article.php?p=527).
 
 ## solve
 `python main.py`
+
+## similar game
+- [Zebra Puzzle - Wikipedia](https://en.wikipedia.org/wiki/Zebra_Puzzle)
